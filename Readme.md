@@ -2,6 +2,8 @@
 
 * Студент: [Aleksandr Markovkin](https://up.htmlacademy.ru/htmlcss/25/user/1036557).
 
+* Наставник: [Ирина Малиновская] (https://htmlacademy.ru/profile/irina-malinovskaya)
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
