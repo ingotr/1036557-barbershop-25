@@ -391,6 +391,11 @@ a {
 }
 
 /* ----- Сеточные стили ----- */
+html,
+body {
+  min-width: 1122px;
+  min-height: 1150px;
+}
 
 .container {
   width: 940px;
@@ -400,6 +405,7 @@ a {
 
 .main-header {
   margin-bottom: 75px;
+
 }
 
 .inner-page .main-header {
@@ -417,6 +423,7 @@ a {
 }
 
 .inner-page .main-navigation {
+  display: flex;
   align-items: flex-start;
   flex-direction: row;
 }
@@ -425,7 +432,7 @@ a {
   order: 2;
 
   width: 368px;
-  height: 153px;
+  height: 353px;
 }
 
 .inner-page .main-header-logo {
@@ -560,6 +567,14 @@ a {
   list-style: none;
 }
 
+.product-photos {
+  width: 460px;
+}
+
+.product-info {
+  width: 390px;
+}
+
 .main-footer {
   padding: 60px 0;
   margin-top: 65px;
@@ -581,27 +596,10 @@ a {
 
 .footer-social {
   width: 145px;
-
-  text-align: center;
-}
-
-.footer-social ul {
-  list-style: none;
-}
-
-.social-button {
-  color: #ffffff;
 }
 
 .footer-copyright {
   width: 150px;
   margin: 0;
   margin-left: auto;
-}
-
-.footer-copyright .button:hover,
-.footer-copyright .button:focus {
-  color: #000000;
-
-  background-color: #ffffff;
 }
