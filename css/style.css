@@ -392,12 +392,6 @@ a {
 
 /* ----- Сеточные стили ----- */
 
-html,
-body {
-  min-width: 1122px;
-  min-height: 1750px;
-}
-
 .container {
   width: 940px;
   margin: 0 auto;
@@ -408,16 +402,38 @@ body {
   margin-bottom: 75px;
 }
 
+.inner-page .main-header {
+  margin-bottom: 50px;
+
+  background-color: #000000;
+}
+
 .main-navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
- }
 
- .main-header-logo {
+  background-color: transparent;
+}
+
+.inner-page .main-navigation {
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.main-header-logo {
   order: 2;
+
   width: 368px;
   height: 153px;
+}
+
+.inner-page .main-header-logo {
+  order: 0;
+
+  width: 111px;
+  height: 24px;
+  padding: 23px 20px;
 }
 
 .main-navigation-wrapper {
@@ -448,6 +464,10 @@ body {
   list-style: none;
 }
 
+.inner-page .user-navigation {
+  margin-left: auto;
+}
+
 .features {
   margin-bottom: 80px;
 }
@@ -470,18 +490,17 @@ body {
   justify-content: space-between;
   padding: 50px 80px;
   margin-bottom: 35px;
- }
+}
 
-
- .news {
+.news {
   width: 380px;
- }
+}
 
- .gallery {
+.gallery {
   width: 300px;
- }
+}
 
- .contacts {
+.contacts {
   width: 380px;
 }
 
@@ -489,9 +508,65 @@ body {
   width: 300px;
 }
 
+.page-title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.breadcrumbs {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  width: 180px;
+}
+
+.catalog {
+  width: 700px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+
+  list-style: none;
+}
+
+.catalog-item {
+  width: 220px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination-list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
 .main-footer {
   padding: 60px 0;
   margin-top: 65px;
+}
+
+.inner-page .main-footer {
+  margin-top: 45px;
 }
 
 .main-footer .container {
@@ -499,17 +574,34 @@ body {
 }
 
 .footer-contacts {
-  width: 320px;
+  width: 330px;
   margin: 0;
-  margin-right: 80px;
+  margin-right: 70px;
 }
 
 .footer-social {
   width: 145px;
+
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
 }
 
 .footer-copyright {
   width: 150px;
   margin: 0;
   margin-left: auto;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
 }
