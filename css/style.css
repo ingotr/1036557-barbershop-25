@@ -1,3 +1,4 @@
+/* Основные правила */
 body {
   margin: 0;
   padding: 0;
@@ -15,6 +16,8 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Дополнительные правила */
+
 .inner-page {
   color: #000000;
 
@@ -27,6 +30,8 @@ body {
 a {
   text-decoration: none;
 }
+
+/* Раздел навигации */
 
 .main-navigation {
   font-size: 16px;
@@ -139,6 +144,8 @@ a {
   color: #aba9a7;
 }
 
+/* Раздел фильтров */
+
 .filter fieldset {
   border: none;
 }
@@ -163,6 +170,8 @@ a {
 
   opacity: 0.5;
 }
+
+/* Раздел каталога */
 
 .catalog-list {
   list-style: none;
@@ -213,6 +222,8 @@ a {
   background-color: #000000;
 }
 
+/* Раздел пагинации */
+
 .pagination-item a:hover,
 .pagination-item a:focus,
 .pagination-item a:active {
@@ -232,6 +243,43 @@ a {
 
   background-color: #ffffff;
 }
+
+/* Разметка карточки товара */
+
+.product-photo-preview {
+  list-style: none;
+}
+
+.product-photo-preview li {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-photo-full {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-article {
+  text-align: right;
+  color: #aeaeae;
+}
+
+.product-price b {
+  line-height: 20px;
+  text-align: center;
+
+  background-color: #e5e5e5;
+}
+
+.product-info h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.product-info ul {
+  list-style: none;
+}
+
+/* Раздел подвала */
 
 .main-footer {
   color: #ffffff;
@@ -274,6 +322,8 @@ a {
 
   background-color: #ffffff;
 }
+
+/* Раздел модального окна */
 
 .modal {
   color: #000000;
